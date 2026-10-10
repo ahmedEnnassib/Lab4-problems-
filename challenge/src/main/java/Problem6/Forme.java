@@ -1,5 +1,5 @@
 package Problem6;
 
-public class Forme {
-
+public abstract class Forme {
+    public abstract double getSurface();
 }
