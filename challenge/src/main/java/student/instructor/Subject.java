@@ -4,7 +4,12 @@ public class Subject extends Instructor{
     private int id;
     private String code;
     private String title;
-
+    public Subject(String firstName, String secondName, String telephone, String email,String employeeNumber,int id,String code,String title){
+        super(firstName,secondName,telephone,email,employeeNumber);
+        this.id = id;
+        this.code = code;
+        this.title = title;
+    }
     public String normalizedCode(){
         return code.toUpperCase().trim();
     }
