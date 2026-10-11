@@ -25,6 +25,16 @@ public class Major {
     }
 
     // Getters
+
+    public int getId() {
+        return id;
+    }
+    public String getCode(){
+        return code;
+    }
+    public String getName(){
+        return name;
+    }
     public Student findStudentByCNE(String cne){
         for(int i = 0 ; i < studentCount;i++){
             if(students[i] != null && students[i].getCne().equals(cne)){

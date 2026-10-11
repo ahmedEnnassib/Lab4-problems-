@@ -22,6 +22,9 @@ public class Student extends Person {
     public String getCne(){
         return cne;
     }
+    public String getMajor(){
+        return major.getName();
+    }
     // Setters
     public void setCne(String cne){
         this.cne = cne;
